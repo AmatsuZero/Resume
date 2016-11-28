@@ -79,7 +79,7 @@ iOS工程师
 ###VC浏览器
 **项目链接：[AppStore链接](https://itunes.apple.com/cn/app/vc-liu-lan-qi/id929092372?mt=8)**  
 
-参与部分及技术点:
+参与部分及技术点:  
 1. 移植AdBlock的广告过滤引擎，实现广告过滤；  
 2. 借鉴火狐、QQ等浏览器，实现夜间模式；  
 3. 借助NSURLProtocol，实现浏览器无图模式、离线缓存；  
@@ -92,7 +92,7 @@ iOS工程师
 + [车主版](https://itunes.apple.com/cn/app/a-da-wu-liu-che-zhu-ban/id1056048870?mt=8)  
 + [货主版](https://itunes.apple.com/cn/app/a-da-wu-liu-huo-zhu-ban/id1050412810?mt=8)   
 
-参与部分及技术点:
-1. 项目整体开发；
+参与部分及技术点:  
+1. 项目整体开发；  
 2. 集成百度/推送/支付，并进行了各种自定义封装；  
 3. 增值服务模块的开发，实现Web与原生通讯;  
