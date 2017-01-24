@@ -6,6 +6,7 @@
 ```sh
 #请打开终端，并确保已安装homebrew
 #安装pandoc
+$ brew update
 $ brew install pandoc
 #转换为docx格式
 $ pandoc -f markdown -t docx 源文件.md -o 目标文件.docx
@@ -46,24 +47,20 @@ iOS工程师
 2. 对URL Loading系统有较为深入的理解使用；
 3. 熟悉iOS各种持久化方案，有过Realm使用经验，最熟悉是CoreData;
 4. 常见集成（SSO/分享/推送/地图/支付）均有踩坑经验；
-5. 了解CI，部署并使用过Xcode Server/Jekins/Fastline等工具;
-6. Git、SVN均有使用经验；
+5. 了解CI，部署并使用过Xcode Server/Jekins/Fastline/Travis等工具;
+6. Git、SVN均有使用经验（Github、GitLab、Bitbucket，etc.）；
 7. 熟悉iOS常见各种设计模式，了解MVC/MVVM/MVP/VIPER等各种架构；
 8. 对各种Hybrid方案均有所涉猎，熟悉Native-Web通讯的各种方案。
 9. 对于iOS的一些黑魔法也有所涉猎，比如：
 - IPC技术。包括：Mach Ports（一般掌握，了解其高级API `CFMessagePort/NSMessagePort`的使用）、分发消息（`CFNotificationCenterGetDistributedCenter`）、`剪切板`、`Universal Links`；
 - Runtime技术。使用过但不限于以下技术：`Method Swizzling`、`消息转发`、`associatedobject`、`遍历类的属性和方法等`；
-- 私有API。本人平常打交道最多的是UIWebView，你懂的；
+- 私有API。本人平常打交道最多的是WebView，你懂的，比如让WKWebView支持NSURLProtocol，图片一键保存为壁纸什么的；
 
 ###Web相关：
 1. 项目需要，使用JS对DOM、BOM对象的操作已是家常便饭。MDN是我经常查查询API的场所；
-2. 对CSS的选择器、权重等基础概念有所了解，通过借鉴网上资料写过页面夜间模式的样式表；
-3. 了解Reac Native，掌握但不限于以下技术：
-- NPM的使用；
-- 自定义RN/原生控件的使用;
-- 了解过`Redux`、`Redux-Saga`的使用；
-- 通过CodePush实现热更新;
-4. 了解NodeJS，研究过使用`Express`搭建简单的JSON Provider；
+2. 对CSS基础概念有所了解，通过借鉴网上资料写过页面夜间模式的样式表；
+3. 熟悉React Native，自己独立开发高仿网易新闻RN版，技术点请参见链接中README.md;
+4. NodeJS，使用过其Web框架Express，写过爬虫：
 5. 研究过H5的部分新特性，并尝试在项目中使用过:
 - 持久化方案。包括但不限于以下技术：`Application Cache`、`IndexedDB`；
 - 利用`Canvas`、`SVG`、`iconfont`等技术来减少原生项目体积;
@@ -75,6 +72,16 @@ iOS工程师
 + Swift从1.0发布就有研究，研究过其Web框架`Perfect`、`Vapor`的使用，IBM的`Kitura`亦有所了解；
 
 ##项目经验
+
+###RN项目-高仿网易新闻
+**项目链接：[Github](https://github.com/AmatsuZero/NeteaseNews)**  
+技术点：
+1. 利用RN中文网提供的react-native-update实现热更新；
+2. 自定义原生模块(lighthouse/videoplayer)，其中视频封装的是ijkplayer；
+3. 利用React-router重构路由；
+4. 集成激光推送，并利用静默推送功能实现配置文件更新；
+5. 持久化部分使用的是Realm；
+6. 采用Redux搭建架构；
 
 ###VC浏览器
 **项目链接：[AppStore链接](https://itunes.apple.com/cn/app/vc-liu-lan-qi/id929092372?mt=8)**  
