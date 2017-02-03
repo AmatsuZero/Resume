@@ -60,7 +60,7 @@ iOS工程师
 1. 项目需要，使用JS对DOM、BOM对象的操作已是家常便饭。MDN是我经常查查询API的场所；
 2. 对CSS基础概念有所了解，通过借鉴网上资料写过页面夜间模式的样式表；
 3. 熟悉React Native，自己独立开发高仿网易新闻RN版，技术点请参见链接中README.md;
-4. NodeJS，使用过其Web框架Express，写过爬虫：
+4. 熟悉NodeJS，使用过其Web框架Express，写过爬虫，了解通过gyp封装模块；
 5. 研究过H5的部分新特性，并尝试在项目中使用过:
 - 持久化方案。包括但不限于以下技术：`Application Cache`、`IndexedDB`；
 - 利用`Canvas`、`SVG`、`iconfont`等技术来减少原生项目体积;
@@ -75,13 +75,19 @@ iOS工程师
 
 ###RN项目-高仿网易新闻
 **项目链接：[Github](https://github.com/AmatsuZero/NeteaseNews)**  
+
 技术点：
 1. 利用RN中文网提供的react-native-update实现热更新；
-2. 自定义原生模块(lighthouse/videoplayer)，其中视频封装的是ijkplayer；
+
+2. 自定义原生模块(lighthouse/videoplayer)，其中视频封装的是ijkplayer；图片点击预览利用到了NSURLProtocol实现图片缓存；
+
 3. 利用React-router重构路由；
-4. 集成激光推送，并利用静默推送功能实现配置文件更新；
-5. 持久化部分使用的是Realm；
-6. 采用Redux搭建架构；
+
+4. 集成极光推送，并利用静默推送功能实现配置文件更新；
+
+5. 持久化部分使用的是Realm（~~好吧，目前还没有并到主干上~~）；
+
+6. 采用Redux搭建架构（~~好吧，现在也是在分支上~~）；
 
 ###VC浏览器
 **项目链接：[AppStore链接](https://itunes.apple.com/cn/app/vc-liu-lan-qi/id929092372?mt=8)**  
