@@ -39,7 +39,7 @@ iOS工程师
 **__联系方式：__**
 
 + Cellphone：13905355320  
-+ E-Mail: [jzh16s@hotamil.com](jzh16s@hotamil.com)  
++ E-Mail: [jzh16s@hotamil.com](jzh16s@hotmail.com)  
 + 知乎：[姜振华 - 知乎](https://www.zhihu.com/people/jiang-zhen-hua-86/asks)  
 + Linkedin:[Zhenhua Jiang](https://cn.linkedin.com/in/jiangzhenhua)  
 
