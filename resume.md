@@ -58,6 +58,8 @@ iOS工程师
 - IPC技术。包括：Mach Ports（一般掌握，了解其高级API ``CFMessagePort/NSMessagePort``的使用）、分发消息（``CFNotificationCenterGetDistributedCenter``）、`剪切板`、`Universal Links`；
 - Runtime技术。使用过但不限于以下技术：`Method Swizzling`、`消息转发`、`associatedobject`、`遍历类的属性和方法等`；
 - 私有API。本人平常打交道最多的是WebView，你懂的，比如让WKWebView支持NSURLProtocol，图片一键保存为壁纸什么的；
+10. Swift从1.0发布就有研究，研究过其Web框架`Perfect`、`Vapor`的使用，IBM的`Kitura`亦有所了解；
+11. 熟悉Cocoa下的Swift。
 
 ###Web相关：
 1. 项目需要，使用JS对DOM、BOM对象的操作已是家常便饭。MDN是我经常查查询API的场所；
@@ -72,10 +74,18 @@ iOS工程师
 ###其他技术：
 + 现在由于工作安排，看过一段时间的JAVA Web技术，对Spring MVC有一般了解；
 + 在研究CI、Bugly集成的时候，对于SHELL研究过一段时间，对常见的一些操作有所了解；
-+ Swift从1.0发布就有研究，研究过其Web框架`Perfect`、`Vapor`的使用，IBM的`Kitura`亦有所了解；
-+ 熟悉Cocoa下的Swift。
 
 ##项目经验
+###缘分吧
+**项目链接：[AppStore链接](https://itunes.apple.com/cn/app/%E7%BC%98%E4%BB%BD%E5%90%A7/id1065453861?mt=8)**
+
+缘分吧是一款社交软件，100%Swift打造。以下为本人了解的技术点：
+
+技术点：
+1. 部分Pod使用的私有Pod（图片浏览、加密等等）
+2. H5游戏与原生的结合
+3. Alamofire、MJRefresh等三方库的二次封装
+
 ###Swift-Dunk
 **项目链接：[Github](https://github.com/AmatsuZero/Dunk)**
 
