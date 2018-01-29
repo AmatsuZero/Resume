@@ -10,10 +10,8 @@ import Foundation
 
 class DJHolderArray: DJHolder {
 
-    typealias contentType = Array<Any>
     var array: Array<Any> = []
     var processor: ((Array<Any>) -> String)?
-
 
     init(_ text: String, _ processor: @escaping (Array<Any>) -> String) {
         super.init(text)
@@ -24,7 +22,7 @@ class DJHolderArray: DJHolder {
         fatalError("This method should not be called!")
     }
 
-    func generate() -> String {
+    override func generate() -> String {
         return processor?(array) ?? ""
     }
 

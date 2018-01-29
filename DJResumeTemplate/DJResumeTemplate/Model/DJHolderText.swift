@@ -10,10 +10,9 @@ import Foundation
 
 class DJHolderText: DJHolder {
 
-    typealias contentType = String
     var content = ""
 
-    func generate() -> String {
+    override func generate() -> String {
         return content
     }
 

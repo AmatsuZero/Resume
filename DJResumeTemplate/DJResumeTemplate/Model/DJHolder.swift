@@ -8,28 +8,16 @@
 
 import Foundation
 
-protocol DJHolerProtocol {
-    associatedtype contentType
-    func generate() -> String
-    func set(_ content: contentType)
-    func apply(_ templete: inout String)
-}
+class DJHolder {
 
-extension DJHolerProtocol {
-    func generate() -> String {
-        return ""
-    }
-    func set(_ content: contentType) {
-        print("set content!")
-    }
-}
-
-class DJHolder: DJHolerProtocol {
-    typealias contentType = Any
     var holder: String
 
     init(_ text: String) {
         holder = "%\(text)%"
+    }
+
+    func generate() -> String {
+        fatalError("Must override")
     }
 
     func apply(_ templete: inout String) {

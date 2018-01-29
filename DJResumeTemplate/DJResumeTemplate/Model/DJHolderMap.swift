@@ -10,7 +10,6 @@ import Foundation
 
 class DJHolderMap: DJHolder {
 
-    typealias contentType = Dictionary<String, Any>
     var dictionary: Dictionary<String, Any> = [:]
     var processor: ((Dictionary<String, Any>) -> String)?
 
@@ -23,7 +22,7 @@ class DJHolderMap: DJHolder {
         fatalError("This method should not be called!")
     }
 
-    func generate() -> String {
+    override func generate() -> String {
         return processor?(dictionary) ?? ""
     }
 
