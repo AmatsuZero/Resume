@@ -82,7 +82,7 @@ extension String {
 
     // MARK:- HTML
     /// 添加超链接
-    func a(link: String) -> String {
+    public func a(link: String) -> String {
         return "<a href='\(link)'>\(self)</a>"
     }
 
@@ -99,5 +99,36 @@ extension String {
     /// 添加 Div
     func div() -> String {
         return "<div>\(self)</div>"
+    }
+
+    //MARK: - NSSting Simulation
+    var lastPathComponent: String {
+        return (self as NSString).lastPathComponent
+    }
+
+    var pathExtension: String {
+        return (self as NSString).pathExtension
+    }
+
+    var stringByDeletingLastPathComponent: String {
+        return (self as NSString).deletingLastPathComponent
+    }
+
+    var stringByDeletingPathExtension: String {
+        return (self as NSString).deletingPathExtension
+    }
+
+    var pathComponents: [String] {
+        return (self as NSString).pathComponents
+    }
+
+    func stringByAppendingPathComponent(path: String) -> String {
+        let nsSt = self as NSString
+        return nsSt.appendingPathComponent(path)
+    }
+
+    func stringByAppendingPathExtension(ext: String) -> String? {
+        let nsSt = self as NSString
+        return nsSt.appendingPathExtension(ext)
     }
 }

@@ -7,13 +7,16 @@
 //
 
 import Foundation
+import ZipArchive
 
 public class DJResumeTemplate {
 
     /// 模板路径
-    private let template: DJTemplete?
+    private var template: DJTemplete?
+    private let resourceBundle: Bundle?
+    private let unzipPath = NSTemporaryDirectory().stringByAppendingPathComponent(path: "template")
     /// 简历内容
-    var content: ResumeContent? {
+    public var content: ResumeContent? {
         didSet {
             if let resumeContent = content {
                 template?.name.set(resumeContent.name)
@@ -34,19 +37,40 @@ public class DJResumeTemplate {
         }
     }
 
-    var saveTo: String = (NSTemporaryDirectory() as NSString).appending("index.html")
-
-    public init?(basePath: String) throws {
-        template = try DJTemplete(path: DJPath.templete)
+    public init?(rootPath: String?, basePath: String) throws {
+        var path = Bundle.main.path(forResource: "TemplateBundle", ofType: "bundle")
+        if path == nil, let rPath = rootPath {
+            path = rPath.stringByAppendingPathComponent(path: "DJResumeTemplate.framework/Resources/TemplateBundle.bundle")
+        }
+        resourceBundle = Bundle(path: path!)
+        if resourceBundle != nil, !resourceBundle!.isLoaded {
+            resourceBundle?.load()
+        }
+        let templatePath = resourceBundle?.path(forResource: "template", ofType: "html") ?? ""
+        template = try DJTemplete(path: templatePath)
         template?.basePath.set(basePath)
+        // 解压压缩包
+        if let zipPath = resourceBundle?.path(forResource: "resource", ofType: "zip") {
+            SSZipArchive.unzipFile(atPath: zipPath, toDestination: unzipPath)
+        }
     }
 
-    public func generate() throws {
+    deinit {
+        // 删除压缩包
+        if FileManager.default.fileExists(atPath: unzipPath) {
+             try? FileManager.default.removeItem(atPath: unzipPath)
+        }
+        print("deinit")
+    }
+
+    public func generate()  throws -> String{
+        let saveTo = unzipPath.stringByAppendingPathComponent(path: "index.html")
         // 打开生成的简历文件
         let resume = try DJFile(path: saveTo)
         // 应用所填入的信息
         resume?.content = template?.apply() ?? ""
         // 保存
         try resume?.save()
+        return saveTo
     }
 }

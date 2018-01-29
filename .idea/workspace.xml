@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e971e377-ea81-4d93-9a62-5c8dd20cbfd4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Resume.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DJResumeTemplate/Cartfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DJResumeTemplate/Cartfile.resolved" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/resource.zip" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate.xcworkspace/xcuserdata/modao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/DJResumeTemplate.xcworkspace/xcuserdata/modao.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate.xcworkspace/xcuserdata/modao.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/DJResumeTemplate.xcworkspace/xcuserdata/modao.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate.xcodeproj/xcuserdata/modao.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate.xcodeproj/xcuserdata/modao.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/DJResumeTemplate.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/DJResumeTemplate.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Extension/StringExtension.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Extension/StringExtension.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Model/Content.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Model/Content.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Model/DJHolder.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Model/DJHolder.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/DJResumeTemplate/Model/DJPath.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/ResumeDisplay/AppDelegate.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/ResumeDisplay/AppDelegate.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/ResumeDisplay/ViewController.swift" afterPath="$PROJECT_DIR$/DJResumeTemplate/ResumeDisplay/ViewController.swift" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/foundation.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/foundation.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/normalize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/notices.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/pizza.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/.fontcustom-data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/foundation-icons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/foundation-icons.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/foundation-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/foundation-icons.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/foundation-icons.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-address-book.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-alert.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-align-center.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-align-justify.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-align-left.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-align-right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-anchor.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-annotate.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-archive.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrow-down.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrow-left.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrow-right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrow-up.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrows-compress.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrows-expand.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrows-in.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-arrows-out.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-asl.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-asterisk.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-at-sign.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-background-color.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-battery-empty.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-battery-full.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-battery-half.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-bitcoin-circle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-bitcoin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-blind.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-bluetooth.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-book-bookmark.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-book.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-bookmark.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-braille.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-burst-new.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-burst-sale.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-burst.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-calendar.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-camera.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-check.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-checkbox.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-clipboard-notes.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-clipboard-pencil.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-clipboard.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-clock.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-closed-caption.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-cloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-comment-minus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-comment-quotes.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-comment-video.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-comment.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-comments.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-compass.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-contrast.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-credit-card.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-crop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-crown.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-css3.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-database.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-five.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-four.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-one.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-six.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-three.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-die-two.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-dislike.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-dollar-bill.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-dollar.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-download.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-eject.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-elevator.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-euro.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-eye.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-fast-forward.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-female-symbol.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-female.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-filter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-first-aid.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-flag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-folder-add.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-folder-lock.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-folder.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-foot.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-foundation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-graph-bar.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-graph-horizontal.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-graph-pie.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-graph-trend.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-guide-dog.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-hearing-aid.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-heart.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-home.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-html5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-indent-less.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-indent-more.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-info.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-key.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-laptop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-layout.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-lightbulb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-like.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-link.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-list-bullet.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-list-number.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-list-thumbnails.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-list.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-lock.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-loop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-magnifying-glass.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-mail.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-male-female.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-male-symbol.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-male.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-map.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-marker.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-megaphone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-microphone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-minus-circle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-minus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-mobile-signal.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-mobile.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-monitor.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-mountains.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-music.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-next.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-no-dogs.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-no-smoking.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-add.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-copy.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-csv.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-delete.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-doc.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-edit.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-export-csv.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-export-doc.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-export-pdf.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-export.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-filled.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-multiple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-pdf.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-remove.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page-search.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-page.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-paint-bucket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-paperclip.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-pause.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-paw.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-paypal.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-pencil.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-photo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-play-circle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-play-video.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-play.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-plus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-pound.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-power.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-previous.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-price-tag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-pricetag-multiple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-print.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-prohibited.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-projection-screen.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-puzzle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-quote.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-record.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-refresh.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-results-demographics.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-results.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-rewind-ten.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-rewind.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-rss.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-safety-cone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-save.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-share.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-sheriff-badge.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-shield.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-shopping-bag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-shopping-cart.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-shuffle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-skull.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-500px.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-adobe.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-amazon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-android.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-apple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-behance.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-bing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-blogger.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-delicious.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-designer-news.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-deviant-art.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-digg.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-dribbble.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-drive.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-dropbox.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-evernote.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-facebook.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-flickr.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-forrst.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-foursquare.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-game-center.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-github.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-google-plus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-hacker-news.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-hi5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-instagram.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-joomla.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-lastfm.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-linkedin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-myspace.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-orkut.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-path.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-picasa.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-pinterest.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-rdio.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-reddit.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-skillshare.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-skype.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-smashing-mag.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-snapchat.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-spotify.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-squidoo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-stack-overflow.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-steam.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-stumbleupon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-treehouse.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-tumblr.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-twitter.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-vimeo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-windows.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-xbox.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-yahoo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-yelp.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-youtube.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-zerply.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-social-zurb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-sound.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-star.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-stop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-strikethrough.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-subscript.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-superscript.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-tablet-landscape.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-tablet-portrait.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-target-two.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-target.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-telephone-accessible.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-telephone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-text-color.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-thumbnails.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-ticket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torso-business.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torso-female.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torso.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torsos-all-female.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torsos-all.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torsos-female-male.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torsos-male-female.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-torsos.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-trash.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-trees.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-trophy.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-underline.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-universal-access.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-unlink.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-unlock.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-upload-cloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-upload.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-usb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-video.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-volume-none.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-volume-strike.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-volume.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-web.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-wheelchair.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-widget.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-wrench.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-x-circle.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-x.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-yen.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-zoom-in.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/icons/svgs/fi-zoom-out.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/img/ribbon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.abide.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.accordion.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.clearing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.equalizer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.interchange.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.joyride.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.magellan.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.offcanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.orbit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.reveal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.slider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/foundation/foundation.topbar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/jquery-2.x.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/pizza.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/pizza.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/fastclick.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/jquery.cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/modernizr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/placeholder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/js/vendor/snap.svg.js" afterPath="" />
+    </list>
+    <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/DJResumeTemplate-awwbgsuturxwpshghxxzfxiemjhz/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_x86_64" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="DJResumeTemplate" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="DJResumeTemplate" type="1d218c8b:XcodeProjectNode" />
+              <item name="Resume" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="CocoaPods" />
+    <property name="settings.editor.splitter.proportion" value="0.23483366" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DJResumeTemplate" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DJResumeTemplate" TARGET_NAME="DJResumeTemplate" CONFIG_NAME="Debug" SCHEME_NAME="DJResumeTemplate" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e971e377-ea81-4d93-9a62-5c8dd20cbfd4" name="Default" comment="" />
+      <created>1517241248615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517241248615</updated>
+      <workItem from="1517241256835" duration="46000" />
+      <workItem from="1517241316760" duration="285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="331000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DJResumeTemplate/TemplateBundle/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -17,7 +17,7 @@ protocol DJHolerProtocol {
 
 extension DJHolerProtocol {
     func generate() -> String {
-        fatalError("This method must be rewrite!")
+        return ""
     }
     func set(_ content: contentType) {
         print("set content!")
