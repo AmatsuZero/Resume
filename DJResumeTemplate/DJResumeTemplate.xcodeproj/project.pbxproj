@@ -20,9 +20,11 @@
 		2118A897201EE6E600CC7CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118A896201EE6E600CC7CD0 /* ViewController.swift */; };
 		2118A899201EE6E800CC7CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2118A898201EE6E800CC7CD0 /* Assets.xcassets */; };
 		2118A89C201EE6E800CC7CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118A89A201EE6E800CC7CD0 /* Main.storyboard */; };
+		214A3AD72020CC6500B55A45 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A3AD62020CC6500B55A45 /* WebKit.framework */; };
 		217159BA201F76BE0071D985 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 217159B9201F76BE0071D985 /* template.html */; };
 		217159BC201F771D0071D985 /* resource.zip in Resources */ = {isa = PBXBuildFile; fileRef = 217159BB201F771D0071D985 /* resource.zip */; };
 		217159BD201F78B00071D985 /* TemplateBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2118A5C9201EC63E00CC7CD0 /* TemplateBundle.bundle */; };
+		217159BF202010330071D985 /* ResumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217159BE202010330071D985 /* ResumeModel.swift */; };
 		21E266AD201F08AF004BEC7D /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E266AC201F08AF004BEC7D /* Content.swift */; };
 		21E266AF201F2C4D004BEC7D /* DJFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E266AE201F2C4D004BEC7D /* DJFile.swift */; };
 		21E266C4201F4444004BEC7D /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E266C3201F4444004BEC7D /* ZipArchive.framework */; };
@@ -103,8 +105,10 @@
 		2118A89B201EE6E800CC7CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2118A89D201EE6E800CC7CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2118A89E201EE6E800CC7CD0 /* ResumeDisplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResumeDisplay.entitlements; sourceTree = "<group>"; };
+		214A3AD62020CC6500B55A45 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		217159B9201F76BE0071D985 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
 		217159BB201F771D0071D985 /* resource.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = resource.zip; sourceTree = "<group>"; };
+		217159BE202010330071D985 /* ResumeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeModel.swift; sourceTree = "<group>"; };
 		21E266AC201F08AF004BEC7D /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		21E266AE201F2C4D004BEC7D /* DJFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJFile.swift; sourceTree = "<group>"; };
 		21E266C1201F4341004BEC7D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -138,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214A3AD72020CC6500B55A45 /* WebKit.framework in Frameworks */,
 				21E266C6201F6C3D004BEC7D /* DJResumeTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +230,7 @@
 			children = (
 				2118A894201EE6E600CC7CD0 /* AppDelegate.swift */,
 				2118A896201EE6E600CC7CD0 /* ViewController.swift */,
+				217159BE202010330071D985 /* ResumeModel.swift */,
 				2118A898201EE6E800CC7CD0 /* Assets.xcassets */,
 				2118A89A201EE6E800CC7CD0 /* Main.storyboard */,
 				2118A89D201EE6E800CC7CD0 /* Info.plist */,
@@ -236,6 +242,7 @@
 		21E266BB201F425B004BEC7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				214A3AD62020CC6500B55A45 /* WebKit.framework */,
 				21E266C3201F4444004BEC7D /* ZipArchive.framework */,
 				21E266C1201F4341004BEC7D /* libz.tbd */,
 			);
@@ -440,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217159BF202010330071D985 /* ResumeModel.swift in Sources */,
 				2118A897201EE6E600CC7CD0 /* ViewController.swift in Sources */,
 				2118A895201EE6E600CC7CD0 /* AppDelegate.swift in Sources */,
 			);
@@ -714,7 +722,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ResumeDisplay/ResumeDisplay.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -737,7 +744,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ResumeDisplay/ResumeDisplay.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;

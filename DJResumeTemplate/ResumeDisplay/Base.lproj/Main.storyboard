@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14087.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14087.3"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14087.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ResumeDisplay" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -688,7 +690,7 @@
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
-			<connections>
+                        <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
@@ -703,15 +705,105 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="ResumeDisplay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="405"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvr-Nf-XMX">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="405"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                                <connections>
+                                    <outlet property="navigationDelegate" destination="XfG-lQ-9wD" id="Deb-Uu-c7B"/>
+                                </connections>
+                            </wkWebView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mvr-Nf-XMX" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="5V2-hv-L4E"/>
+                            <constraint firstAttribute="trailing" secondItem="mvr-Nf-XMX" secondAttribute="trailing" id="9Um-vT-PLT"/>
+                            <constraint firstItem="mvr-Nf-XMX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="hIN-Ox-yWn"/>
+                            <constraint firstAttribute="bottom" secondItem="mvr-Nf-XMX" secondAttribute="bottom" id="qZZ-lc-0rk"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webview" destination="mvr-Nf-XMX" id="JS5-Yr-8jV"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="722.5"/>
+        </scene>
+        <!--ResumeEditController-->
+        <scene sceneID="sxO-kB-7td">
+            <objects>
+                <splitViewController title="ResumeEditController" id="AFo-xv-Ixd" sceneMemberID="viewController">
+                    <splitViewItems>
+                        <splitViewItem id="dht-aY-JdG"/>
+                        <splitViewItem id="jKZ-cG-i3j"/>
+                    </splitViewItems>
+                    <splitView key="splitView" dividerStyle="thin" vertical="YES" id="yhM-wm-Jfj">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <outlet property="delegate" destination="AFo-xv-Ixd" id="PnP-1T-nbd"/>
+                        </connections>
+                    </splitView>
+                    <connections>
+                        <outlet property="splitView" destination="yhM-wm-Jfj" id="XJt-dj-u9K"/>
+                        <segue destination="W8C-QC-od6" kind="relationship" relationship="splitItems" id="PgN-WI-DMg"/>
+                        <segue destination="QDl-UI-KAS" kind="relationship" relationship="splitItems" id="YWs-Cs-FMR"/>
+                    </connections>
+                </splitViewController>
+                <customObject id="DOz-q8-Cg6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="62" y="1157"/>
+        </scene>
+        <!--EditController-->
+        <scene sceneID="qc9-iW-tRG">
+            <objects>
+                <viewController title="EditController" id="W8C-QC-od6" sceneMemberID="viewController">
+                    <view key="view" id="mFM-2M-eCi">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="CcK-jy-nYA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="971"/>
+        </scene>
+        <!--DisplayController-->
+        <scene sceneID="aJX-Hn-3DR">
+            <objects>
+                <viewController title="DisplayController" id="QDl-UI-KAS" sceneMemberID="viewController">
+                    <view key="view" id="bUb-WZ-8jS">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="irB-Ev-EOx">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                                <connections>
+                                    <outlet property="navigationDelegate" destination="QDl-UI-KAS" id="Rsc-IT-cgu"/>
+                                </connections>
+                            </wkWebView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="irB-Ev-EOx" firstAttribute="leading" secondItem="bUb-WZ-8jS" secondAttribute="leading" id="R7g-Kl-q3Z"/>
+                            <constraint firstAttribute="bottom" secondItem="irB-Ev-EOx" secondAttribute="bottom" id="axJ-CE-Hdm"/>
+                            <constraint firstAttribute="trailing" secondItem="irB-Ev-EOx" secondAttribute="trailing" id="dRy-Fw-Ht9"/>
+                            <constraint firstItem="irB-Ev-EOx" firstAttribute="top" secondItem="bUb-WZ-8jS" secondAttribute="top" id="rDf-Sz-SwK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="UIL-6x-1F0" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="1343"/>
         </scene>
     </scenes>
 </document>
