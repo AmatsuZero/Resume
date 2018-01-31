@@ -1,24 +1,21 @@
 //
-//  ViewController.swift
+//  DisplayViewController.swift
 //  ResumeDisplay
 //
-//  Created by modao on 2018/1/29.
+//  Created by modao on 2018/1/31.
 //  Copyright © 2018年 MockingBot. All rights reserved.
 //
 
 import Cocoa
 import WebKit
 
-class ViewController: NSViewController {
-    
-    @IBOutlet weak var webview: WKWebView!
-    
-    private var resumeModel: ResumeModel = ResumeModel()
+class DisplayViewController: NSViewController {
 
+    @IBOutlet weak var webview: WKWebView!
+    private var resumeModel: ResumeModel = ResumeModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        webview.navigationDelegate = self
-        view.addSubview(webview)
         // Do view setup here.
         if let path = resumeModel.genertate() {
             let url = URL(fileURLWithPath: path)
@@ -27,7 +24,7 @@ class ViewController: NSViewController {
     }
 }
 
-extension ViewController: WKNavigationDelegate {
+extension DisplayViewController: WKNavigationDelegate {
 
     func webView(_ webView: WKWebView,
                  decidePolicyFor navigationResponse: WKNavigationResponse,

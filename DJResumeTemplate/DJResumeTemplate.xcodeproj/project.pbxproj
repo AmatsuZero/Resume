@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,10 +17,10 @@
 		2118A5F0201EDCE400CC7CD0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118A5EF201EDCE400CC7CD0 /* main.swift */; };
 		2118A5F5201EDFE300CC7CD0 /* DJResumeTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118A5F4201EDFE300CC7CD0 /* DJResumeTemplate.swift */; };
 		2118A895201EE6E600CC7CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118A894201EE6E600CC7CD0 /* AppDelegate.swift */; };
-		2118A897201EE6E600CC7CD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118A896201EE6E600CC7CD0 /* ViewController.swift */; };
 		2118A899201EE6E800CC7CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2118A898201EE6E800CC7CD0 /* Assets.xcassets */; };
 		2118A89C201EE6E800CC7CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2118A89A201EE6E800CC7CD0 /* Main.storyboard */; };
 		214A3AD72020CC6500B55A45 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A3AD62020CC6500B55A45 /* WebKit.framework */; };
+		214A3ADA2020D47700B55A45 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A3AD82020D47700B55A45 /* DisplayViewController.swift */; };
 		217159BA201F76BE0071D985 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 217159B9201F76BE0071D985 /* template.html */; };
 		217159BC201F771D0071D985 /* resource.zip in Resources */ = {isa = PBXBuildFile; fileRef = 217159BB201F771D0071D985 /* resource.zip */; };
 		217159BD201F78B00071D985 /* TemplateBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2118A5C9201EC63E00CC7CD0 /* TemplateBundle.bundle */; };
@@ -100,12 +100,12 @@
 		2118A5F4201EDFE300CC7CD0 /* DJResumeTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJResumeTemplate.swift; sourceTree = "<group>"; };
 		2118A892201EE6E600CC7CD0 /* ResumeDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2118A894201EE6E600CC7CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2118A896201EE6E600CC7CD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2118A898201EE6E800CC7CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2118A89B201EE6E800CC7CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2118A89D201EE6E800CC7CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2118A89E201EE6E800CC7CD0 /* ResumeDisplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResumeDisplay.entitlements; sourceTree = "<group>"; };
 		214A3AD62020CC6500B55A45 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		214A3AD82020D47700B55A45 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		217159B9201F76BE0071D985 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
 		217159BB201F771D0071D985 /* resource.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = resource.zip; sourceTree = "<group>"; };
 		217159BE202010330071D985 /* ResumeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeModel.swift; sourceTree = "<group>"; };
@@ -228,15 +228,31 @@
 		2118A893201EE6E600CC7CD0 /* ResumeDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				214A3ADD2021385200B55A45 /* Model */,
+				214A3ADC2021384400B55A45 /* Controller */,
 				2118A894201EE6E600CC7CD0 /* AppDelegate.swift */,
-				2118A896201EE6E600CC7CD0 /* ViewController.swift */,
-				217159BE202010330071D985 /* ResumeModel.swift */,
 				2118A898201EE6E800CC7CD0 /* Assets.xcassets */,
 				2118A89A201EE6E800CC7CD0 /* Main.storyboard */,
 				2118A89D201EE6E800CC7CD0 /* Info.plist */,
 				2118A89E201EE6E800CC7CD0 /* ResumeDisplay.entitlements */,
 			);
 			path = ResumeDisplay;
+			sourceTree = "<group>";
+		};
+		214A3ADC2021384400B55A45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				214A3AD82020D47700B55A45 /* DisplayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		214A3ADD2021385200B55A45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				217159BE202010330071D985 /* ResumeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		21E266BB201F425B004BEC7D /* Frameworks */ = {
@@ -349,20 +365,24 @@
 					2118A5B9201EC5A800CC7CD0 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
 					};
 					2118A5C8201EC63E00CC7CD0 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 					2118A5EC201EDCE400CC7CD0 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 					2118A891201EE6E600CC7CD0 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 2118A5B4201EC5A800CC7CD0 /* Build configuration list for PBXProject "DJResumeTemplate" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -448,8 +468,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				217159BF202010330071D985 /* ResumeModel.swift in Sources */,
-				2118A897201EE6E600CC7CD0 /* ViewController.swift in Sources */,
 				2118A895201EE6E600CC7CD0 /* AppDelegate.swift in Sources */,
+				214A3ADA2020D47700B55A45 /* DisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +622,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -617,11 +638,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DJResumeTemplate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MockingBot.DJResumeTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -634,7 +651,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -649,11 +667,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DJResumeTemplate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MockingBot.DJResumeTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -664,6 +678,7 @@
 		2118A5CC201EC63E00CC7CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -682,6 +697,7 @@
 		2118A5CD201EC63E00CC7CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -700,6 +716,7 @@
 		2118A5F2201EDCE400CC7CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TCU9L9SQC4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -710,6 +727,7 @@
 		2118A5F3201EDCE400CC7CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TCU9L9SQC4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -722,15 +740,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCU9L9SQC4;
 				INFOPLIST_FILE = ResumeDisplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MockingBot.ResumeDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -744,15 +760,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TCU9L9SQC4;
 				INFOPLIST_FILE = ResumeDisplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MockingBot.ResumeDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
